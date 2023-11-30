@@ -9,7 +9,7 @@
 
 1. Clonez le répertoire du projet :
     - git clone
-    - cd Flutter-Live-Chat
+    - cd Groupie
 
 ⚠️ Assurez-vous que Flutter est correctement installé sur votre machine ⚠️
 
