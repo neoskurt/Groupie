@@ -52,7 +52,7 @@ class _GroupInfoState extends State<GroupInfo> {
         centerTitle: true,
         elevation: 0,
         backgroundColor: Theme.of(context).primaryColor,
-        title: const Text("Group Info"),
+        title: const Text("Informations du groupe"),
         actions: [
           IconButton(
               onPressed: () {
@@ -61,9 +61,9 @@ class _GroupInfoState extends State<GroupInfo> {
                     context: context,
                     builder: (context) {
                       return AlertDialog(
-                        title: const Text("Exit"),
+                        title: const Text("Quitter"),
                         content:
-                            const Text("Are you sure you exit the group? "),
+                            const Text("Êtes-vous sûr de vouloir quitter le groupe ?"),
                         actions: [
                           IconButton(
                             onPressed: () {
@@ -127,7 +127,7 @@ class _GroupInfoState extends State<GroupInfo> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Group: ${widget.groupName}",
+                        "Groupe: ${widget.groupName}",
                         style: const TextStyle(fontWeight: FontWeight.w500),
                       ),
                       const SizedBox(
@@ -182,12 +182,12 @@ class _GroupInfoState extends State<GroupInfo> {
               );
             } else {
               return const Center(
-                child: Text("NO MEMBERS"),
+                child: Text("PAS DE MEMBRES"),
               );
             }
           } else {
             return const Center(
-              child: Text("NO MEMBERS"),
+              child: Text("PAS DE MEMBRES"),
             );
           }
         } else {
