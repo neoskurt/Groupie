@@ -3,7 +3,7 @@
 ## Fonctionnalités Principales
 
 - **Authentification des Utilisateurs :** Enregistrez-vous, connectez-vous et gérez votre profil pour une expérience personnalisée.
-- **Système de Chat :** Communiquez facilement avec plusieurs groupe
+- **Système de Chat :** Communiquez facilement avec plusieurs groupes
 - **Rejoindre et Rechercher des Groupes :** Rejoignez et recherchez des groupes abordant diverses thématiques/sujets.
 
 ## Installation Flutter
