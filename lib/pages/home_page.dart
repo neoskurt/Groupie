@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Theme.of(context).primaryColor,
         title: const Text(
-          "Groups",
+          "Groupes",
           style: TextStyle(
               color: Colors.white, fontWeight: FontWeight.bold, fontSize: 27),
         ),
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.group),
             title: const Text(
-              "Groups",
+              "Groupes",
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.group),
             title: const Text(
-              "Profile",
+              "Profil",
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -141,8 +141,8 @@ class _HomePageState extends State<HomePage> {
                   context: context,
                   builder: (context) {
                     return AlertDialog(
-                      title: const Text("Logout"),
-                      content: const Text("Are you sure you want to logout?"),
+                      title: const Text("Se déconnecter"),
+                      content: const Text("Êtes-vous sûr de vouloir vous déconnecter ?"),
                       actions: [
                         IconButton(
                           onPressed: () {
@@ -174,7 +174,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.exit_to_app),
             title: const Text(
-              "Logout",
+              "Se déconnecter",
               style: TextStyle(color: Colors.black),
             ),
           )
@@ -204,7 +204,7 @@ class _HomePageState extends State<HomePage> {
           return StatefulBuilder(builder: ((context, setState) {
             return AlertDialog(
               title: const Text(
-                "Create a group",
+                "Créer un groupe",
                 textAlign: TextAlign.left,
               ),
               content: Column(
@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                   },
                   style: ElevatedButton.styleFrom(
                       primary: Theme.of(context).primaryColor),
-                  child: const Text("CANCEL"),
+                  child: const Text("ANNULER"),
                 ),
                 ElevatedButton(
                   onPressed: () async {
@@ -262,12 +262,12 @@ class _HomePageState extends State<HomePage> {
                       });
                       Navigator.of(context).pop();
                       showSnackbar(
-                          context, Colors.green, "Group created successfully.");
+                          context, Colors.green, "Groupe créé avec succès !");
                     }
                   },
                   style: ElevatedButton.styleFrom(
                       primary: Theme.of(context).primaryColor),
-                  child: const Text("CREATE"),
+                  child: const Text("CRÉER"),
                 )
               ],
             );
@@ -330,7 +330,7 @@ class _HomePageState extends State<HomePage> {
             height: 20,
           ),
           const Text(
-            "You've not joined any groups, tap on the add icon to create a group or also search from top search button.",
+            "Vous n'avez rejoint aucun groupe actuellement. Appuyez sur l'icône '+' pour en créer un. Vous pouvez également en chercher un avec son nom dans la barre de recherche en haut.",
             textAlign: TextAlign.center,
           )
         ],
