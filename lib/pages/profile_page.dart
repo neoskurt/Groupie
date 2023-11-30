@@ -23,7 +23,7 @@ class _ProfilePageState extends State<ProfilePage> {
         backgroundColor: Theme.of(context).primaryColor,
         elevation: 0,
         title: const Text(
-          "Profil",
+          "Profile",
           style: TextStyle(
               color: Colors.white, fontSize: 27, fontWeight: FontWeight.bold),
         ),
@@ -71,7 +71,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.group),
             title: const Text(
-              "Profil",
+              "Profile",
               style: TextStyle(color: Colors.black),
             ),
           ),
