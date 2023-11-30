@@ -5,7 +5,7 @@
 - **Authentification des Utilisateurs :** Enregistrez-vous, connectez-vous et gérez votre profil pour une expérience personnalisée.
 - **Système de Chat :** Communiquez facilement avec plusieurs groupe
 - **Rejoindre et Rechercher des Groupes :** Rejoignez et recherchez des groupes abordant diverses thématiques/sujets.
-- 
+
 ## Installation Flutter
 
 1. Clonez le répertoire du projet :
