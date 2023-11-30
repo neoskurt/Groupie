@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">82673748637</string>
+    <string name="google_api_key" translatable="false">AIzaSyDGw_6TSQABlx2KTxjG9jtw3UFi-iYH_CM</string>
+    <string name="google_app_id" translatable="false">1:82673748637:android:72cad5674e41e5b032a274</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDGw_6TSQABlx2KTxjG9jtw3UFi-iYH_CM</string>
+    <string name="google_storage_bucket" translatable="false">groupie-e8061.appspot.com</string>
+    <string name="project_id" translatable="false">groupie-e8061</string>
+</resources>

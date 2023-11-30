@@ -1,0 +1,1 @@
+ C:\\Users\\neosk\\Desktop\\Groupie\\.dart_tool\\flutter_build\\999a4d50c976085c9a859571e91e4584\\native_assets.yaml: 

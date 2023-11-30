@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82673748637",
+    "project_id": "groupie-e8061",
+    "storage_bucket": "groupie-e8061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82673748637:android:72cad5674e41e5b032a274",
+        "android_client_info": {
+          "package_name": "com.example.chatapp_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGw_6TSQABlx2KTxjG9jtw3UFi-iYH_CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
