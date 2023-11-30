@@ -28,3 +28,10 @@
 **Auteurs**
 
 Anis MEZIANE - Hubert TRUONG - Mustapha RABIAI - Quentin DARTY - Valentin ROCHE - Archibald SABATIER
+
+**Répartition**
+
+Firebase : Anis MEZIANE - Hubert TRUONG
+Page login et register : Quentin DARTY - Mustapha RABIAI
+Creation de groupe + ajout user dans les groupes : Archibald SABATIER et Valentin ROCHE
+Live tchat : tous ensemble
